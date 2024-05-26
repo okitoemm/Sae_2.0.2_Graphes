@@ -32,6 +32,8 @@ public class Main {
 			//duree = mesurer(g, "graphes", "reponses");
             duree = chronoTousLesGraphesDeType(g);
             System.out.println(duree + " millisecondes" );
+         
+            
 		}
 	}
 

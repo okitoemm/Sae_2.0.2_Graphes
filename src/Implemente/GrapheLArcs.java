@@ -14,9 +14,8 @@ import core.IGraphe;
 public class GrapheLArcs implements IGraphe {
 	private List<Arc> arcs;
 	private Set<String> sommets;
-	private static final int valuationFactice=0, valuationInexistante= -1;
 	private static final String noeudFactice = "";
-
+	private static final int valuationFactice=0, valuationInexistante= -1;
 
 	/**
 	 * Constructeur par défaut. Initialise la liste d'arcs et l'ensemble de sommets.
