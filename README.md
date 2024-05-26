@@ -1,6 +1,6 @@
 # Sae_2.0.2_Graphes
 ____________________________________________________________________________________________________________________________________________________________________________________________
-# Groupe 105 : OKITO Emmanuel -- FAIZA -- MAHERITIANA -- ALINE
+# Groupe 105 : OKITO Emmanuel -- FAIZA guebli -- MAHERITIANA Ranaivosoa -- ALINE Aggoun
 ____________________________________________________________________________________________________________________________________________________________________________________________
 # Projet Graphes et Algorithme de Dijkstra
 ____________________________________________________________________________________________________________________________________________________________________________________________
@@ -17,3 +17,27 @@ GrapheLArcs : représente un graphe à l'aide d'une liste d'arcs.
 GrapheMAdj : représente un graphe à l'aide d'une matrice d'adjacence.
 GrapheLAdj : représente un graphe par des listes d'adjacence.
 GrapheHHAdj : représente un graphe par des tables de hachage imbriquées.
+
+
+_____________________________________________________________________________________________________________________________________
+
+Partie II : Algorithme du plus court chemin de Dijkstra
+L'algorithme de Dijkstra est implémenté sur l'interface IGrapheConst sans utiliser explicitement les classes de graphes.
+
+
+_____________________________________________________________________________________________________________________________________
+Tests : Les different reussites des tests fournis sur Moodle
+_____________________________________________________________________________________________________________________________________
+Orig :
+  Les graphes GrapheLAdj et GrapheHHAdj réussissent jusqu'à la taille 1000000-1, tandis que GrapheMAdj et GrapheLArcs réussissent jusqu'à la taille Orig 10000-1.
+  _____________________________________________________________________________________________________________________________________
+Barabasi :
+  Les graphes GrapheLAdj et GrapheHHAdj réussissent jusqu'à la taille 1000002-1, tandis que GrapheMAdj et GrapheLArcs réussissent jusqu'à la taille 10002-1.
+  _____________________________________________________________________________________________________________________________________
+Full :
+Les graphes GrapheMAdj, GrapheLAdj et GrapheHHAdj réussissent jusqu'à la taille 5001-1, tandis que le graphe GrapheLArcs réussit jusqu'à la taille 301-1.
+_____________________________________________________________________________________________________________________________________
+Autres :
+  Les quatre graphes ont réussi.
+  
+
